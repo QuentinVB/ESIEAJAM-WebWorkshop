@@ -1,4 +1,4 @@
-# Processing5.JS - Asteroids
+# 04-Canvas ProcessingJs - Asteroids
 
 This example display a simple game using the processing lib portage on javascript p5.js. The library is mandatory and must be downloaded [here] (https://p5js.org/download/) and put insinde the assets/lib folder. Because Processing use an ES6 assets management, it require a live Server associated with. If you don't, you'll run into a [CORS](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy).
 
