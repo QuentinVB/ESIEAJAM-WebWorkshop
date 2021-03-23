@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tracking mouse position on canvas</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=egde,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <canvas id="traces" width="500" height="500">
+  <script type="text/javascript" charset="utf-8">
+    (function() {
+      "use strict";
+
+      function elePos(ele) {
+        var dx = ele.offsetLeft;
+        var dy = ele.offsetTop;
+        while (ele.offsetParent) {
+          ele = ele.offsetParent;
+          dx += ele.offsetLeft;
+          dy += ele.offsetTop;
+        }
+        return {"dx": dx, "dy": dy};
+      }
+
+      var clientX = 0.0;
+      var clientY = 0.0;
+
+      var cv = document.getElementById('traces');
+      var pos = elePos(cv);
+      var ctx = cv.getContext('2d');
+      ctx.fillStyle = 'lime';
+
+      cv.addEventListener('mousemove', function(e) {
+        clientX = e.clientX;
+        clientY = e.clientY;
+        console.log(clientX,clientY);
+      });
+
+      function draw() {
+        var x = clientX - pos.dx;
+        var y = clientY - pos.dy;
+        ctx.fillRect(x, y, 5, 5);
+        window.requestAnimationFrame(draw);
+      };
+      window.requestAnimationFrame(draw);
+
+    })();
+  </script>
+</body>
+</html>
