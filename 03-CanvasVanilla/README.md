@@ -2,6 +2,8 @@
 
 A simple project with a html5 canvas to demonstrate initialization, update, draw and interaction. 
 
+[DEMO](http://les-planetes2kentin.fr/otherProject/CanvasVanilla/index.html)
+
 ## Description
 
 The player can move a square, using the keyboard arrows, in and out a circle. 
