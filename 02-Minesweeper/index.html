@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="score">
+    🚩 <span id="mineMarked"></span> : 
+    <span id="mineLeft"></span> 💣
+</div>
+<div id="gameover" class="death-background"> 
+    <p>You Died</p>
+</div>
+<div id="victory" class="win-background"> 
+    <p>You Win</p>
+</div>
+<div id="gameField" oncontextmenu="return false;" >
+    <div id="grid"></div>
+</div>
+</body>
+</html>
+<script type="module" src="assets/js/index.js"></script>
+<!--☢️<= using this emoji for the bomb ? lol-->

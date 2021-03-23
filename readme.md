@@ -1,7 +1,10 @@
 # Basic projects for creating games in HTML5
 
+Theses projects are part of a workshop and a tutorial in order to learn how to craft a video-game using HTML5/CSS3/JSES6 technologies. 
+
 ## Projects
 - [01-HTML5 Base](01-HTML5%20Base/readme.md)
+- [02-Minesweeper](02-Minesweeper/readme.md) - [DEMO](http://les-planetes2kentin.fr/otherProject/Minesweeper/index.html)
 
 ## Required
 - Modern browser (Chrome, Opera, Firefox, Edge, Safari)
@@ -12,3 +15,8 @@
 - Live Server
 - Live Sass Compiler
 - SASS
+
+## Why ?
+
+
+Quentin Vanbutsele - 2021
