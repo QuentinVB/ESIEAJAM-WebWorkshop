@@ -2,7 +2,7 @@
 
 A very simple minesweeper game with JS ES6 Module (IE not supported). It uses no images, only utf-8 emoji and pure css animation and style. A live Server is required to run the css/js associated with. If you don't, you'll run into a [CORS](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy).
 
-[DEMO](http://les-planetes2kentin.fr/otherProject/Minesweeper/index.html)
+[DEMO](http://projects.les-planetes2kentin.fr/Minesweeper/index.html)
 
 ## Description
 

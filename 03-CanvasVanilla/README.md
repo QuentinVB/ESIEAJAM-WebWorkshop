@@ -2,7 +2,7 @@
 
 A simple project with a html5 canvas to demonstrate initialization, update, draw and interaction. 
 
-[DEMO](http://les-planetes2kentin.fr/otherProject/CanvasVanilla/index.html)
+[DEMO](http://projects.les-planetes2kentin.fr/CanvasVanilla/index.html)
 
 ## Description
 
