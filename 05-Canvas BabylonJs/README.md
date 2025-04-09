@@ -8,6 +8,7 @@
 ## Description
 
 The player view the 3D world trough a first person view. It can move using ZQSD key (yeah azerty keyboard) and rotate using mouse mouvement (and maintaining click).
+
 ## Implementation
 
 The map is made of a plane and a crate all of the are collidable with physic. The player is a camera with elipsoid
