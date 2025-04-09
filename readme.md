@@ -10,10 +10,12 @@ Theses projects are part of a workshop and a tutorial in order to learn how to c
 - [04-CanvasProcessingJs](/04-CanvasProcessingJs/README.md) - [DEMO](https://projects.les-planetes2kentin.fr/CanvasAsteroid/index.html)
 - [05-CanvasBabylonJs](/05-CanvasBabylonJs/README.md)
 - [06-CanvasBabylonJs-Mayor](/06-BabylonJS-Mayor/README.md) - [DEMO](https://projects.les-planetes2kentin.fr/Mayor/index.html)
+- [07-CanvasARPG](/07-Canvas-ARPG/README.md)
 
 ## Other projects
 
-My personnal [HTML5-GameEngine](https://github.com/QuentinVB/HTML5-GameEngine) project. Still in progress.
+- My personnals [HTML5-GameEngine](https://github.com/QuentinVB/HTML5-GameEngine) project. Still in progress.
+- [D.I.G](https://projects.les-planetes2kentin.fr/Dig/) a simple digging game fully in vanilla HTML/CSS/JS
 
 ## Required
 
